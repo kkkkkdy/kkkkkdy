@@ -1,0 +1,12 @@
+{
+  "name": "regional-investment-permit-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "국내 지방투자 공장 신설·증설 인허가 및 행정절차 Swimlane Dashboard",
+  "scripts": {
+    "lint": "echo 'lint: not configured yet'",
+    "typecheck": "echo 'typecheck: not configured yet'",
+    "test": "echo 'test: not configured yet'",
+    "build": "echo 'build: not configured yet'"
+  }
+}
