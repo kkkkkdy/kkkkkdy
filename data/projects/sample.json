@@ -1,0 +1,16 @@
+{
+  "projectId":"2026-001",
+  "industry":"반도체 제조",
+  "manufacturing":true,
+  "investmentType":"NEW_FACTORY",
+  "location":{"province":"전북","city":"군산시"},
+  "industrialComplex":true,
+  "industrialComplexType":"GENERAL",
+  "buildingConstruction":true,
+  "environmentalImpact":true,
+  "powerMw":80,
+  "waterM3Day":8000,
+  "wastewater":true,
+  "hazardousChemical":true,
+  "fireTarget":true
+}
