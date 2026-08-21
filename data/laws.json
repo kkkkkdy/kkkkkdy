@@ -1,0 +1,5 @@
+{
+  "version":"0.1.0",
+  "laws": [],
+  "policy":"Do not populate legal article numbers or URLs until verified against the official law source. Procedures without verified evidence must remain SOURCE_REQUIRED."
+}
