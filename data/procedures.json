@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "procedures": [
+    {"id":"FACTORY_COMPLEX_CONTRACT","name":"산업단지 입주계약","lane":"산단관리","category":"산업단지","status":"MANDATORY","durationDays":10,"legalVerification":"SOURCE_REQUIRED","conditions":{"industrialComplex":true}},
+    {"id":"FACTORY_ESTABLISHMENT","name":"공장설립 관련 승인","lane":"지자체","category":"공장","status":"MANDATORY","durationDays":20,"legalVerification":"SOURCE_REQUIRED","conditions":{"manufacturing":true}},
+    {"id":"BUILDING","name":"건축허가/신고","lane":"건축","category":"건축","status":"MANDATORY","durationDays":10,"legalVerification":"SOURCE_REQUIRED","conditions":{"buildingConstruction":true}},
+    {"id":"ENVIRONMENT","name":"환경 관련 검토","lane":"환경","category":"환경","status":"CONDITIONAL","durationDays":15,"legalVerification":"SOURCE_REQUIRED","conditions":{"environmentalImpact":true}},
+    {"id":"FIRE","name":"소방시설 관련 절차","lane":"소방","category":"소방","status":"CONDITIONAL","durationDays":7,"legalVerification":"SOURCE_REQUIRED","conditions":{"fireTarget":true}},
+    {"id":"POWER","name":"전력공급 협의","lane":"전력","category":"전력","status":"INFORMATION_REQUIRED","durationDays":30,"legalVerification":"SOURCE_REQUIRED","conditions":{"powerMwMin":10}},
+    {"id":"WATER","name":"용수공급 협의","lane":"용수","category":"용수","status":"CONDITIONAL","durationDays":20,"legalVerification":"SOURCE_REQUIRED","conditions":{"waterM3DayMin":1000}},
+    {"id":"WASTEWATER","name":"폐수 관련 절차","lane":"환경","category":"폐수","status":"CONDITIONAL","durationDays":15,"legalVerification":"SOURCE_REQUIRED","conditions":{"wastewater":true}},
+    {"id":"CHEMICAL","name":"화학물질 관련 절차 검토","lane":"환경","category":"화학물질","status":"CONDITIONAL","durationDays":15,"legalVerification":"SOURCE_REQUIRED","conditions":{"hazardousChemical":true}},
+    {"id":"FACTORY_REGISTRATION","name":"공장등록","lane":"기업","category":"공장","status":"MANDATORY","durationDays":3,"legalVerification":"SOURCE_REQUIRED","conditions":{"manufacturing":true}}
+  ]
+}
