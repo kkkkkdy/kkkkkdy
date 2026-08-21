@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "rules": [
+    {"id":"R001","description":"산업단지 입주계약","when":{"industrialComplex":true},"procedureIds":["FACTORY_COMPLEX_CONTRACT"]},
+    {"id":"R002","description":"제조업 신규·증설 사업의 공장 관련 절차 후보","when":{"manufacturing":true},"procedureIds":["FACTORY_ESTABLISHMENT","FACTORY_REGISTRATION"]},
+    {"id":"R003","description":"건축물 공사가 있는 경우 건축 절차 후보","when":{"buildingConstruction":true},"procedureIds":["BUILDING"]},
+    {"id":"R004","description":"환경영향 검토 조건 입력 시 환경 절차 후보","when":{"environmentalImpact":true},"procedureIds":["ENVIRONMENT"]},
+    {"id":"R005","description":"소방 대상 입력 시 소방 절차 후보","when":{"fireTarget":true},"procedureIds":["FIRE"]},
+    {"id":"R006","description":"대규모 전력 사용 입력 시 전력 협의 후보","when":{"powerMwMin":10},"procedureIds":["POWER"]},
+    {"id":"R007","description":"대규모 용수 사용 입력 시 용수 협의 후보","when":{"waterM3DayMin":1000},"procedureIds":["WATER"]},
+    {"id":"R008","description":"폐수 발생 시 폐수 관련 절차 후보","when":{"wastewater":true},"procedureIds":["WASTEWATER"]},
+    {"id":"R009","description":"유해화학물질 사용 시 화학물질 절차 후보","when":{"hazardousChemical":true},"procedureIds":["CHEMICAL"]}
+  ]
+}
